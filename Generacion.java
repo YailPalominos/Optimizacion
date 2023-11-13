@@ -5,7 +5,7 @@ import java.io.IOException;//Libreria de exepciones del programa
 public class Generacion {
         public static void GenerarCodigoIntermedio(String contenido) {
                 // Ruta del archivo de texto que se va a crear
-                String rutaCompletaArchivo = System.getProperty("user.dir") + "Optimizado.txt";
+                String rutaCompletaArchivo = System.getProperty("user.dir") + "\\Optimizado.txt";
                 try {
                         // Crear un objeto FileWriter para escribir en el archivo
                         FileWriter fileWriter = new FileWriter(rutaCompletaArchivo);
